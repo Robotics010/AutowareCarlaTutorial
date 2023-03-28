@@ -59,6 +59,6 @@ ros2 launch carla_manual_control carla_manual_control.launch.py
 Launch Autoware Universe:
 ```
 source /opt/ros/galactic/setup.bash
-ros2 launch autoware_launsource ~/autoware/install/setup.bash
-h e2e_simulator.launch.xml map_path:=$HOME/autoware_map/carla-town-1 vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+source ~/autoware/install/setup.bash
+ros2 launch autoware_launch e2e_simulator.launch.xml map_path:=$HOME/autoware_map/carla-town-1 vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
 ```
